@@ -572,19 +572,19 @@ body {
 }
 
 .hero-card-grid {
-  margin: 87px;
+  margin: 30px 0 0 0;
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  gap: 106px;
+  gap: 38px;
   list-style: none;
   margin-bottom: 200px;
-  padding-top: 128px;
-  font-size: 22px;
-  line-height: 35px;
+  padding: 187px 0 0 0;
+  font-size: 20px;
+  line-height: 30px;
   color: #8f95a5;
 }
 
@@ -594,7 +594,7 @@ h3 {
   font-size: 28px;
   line-height: 48px;
   color: #263238;
-  padding-top: 11px;
+  padding-top: 8px;
 }
 
 .price__blc-txt {
@@ -608,6 +608,9 @@ h3 {
 .price__blc-txt small {
   color: #888;
   font-size: 18px;
+  font-family: "Poppins";
+  font-style: normal;
+  vertical-align: text-top;
 }
 
 .card1 {
@@ -626,10 +629,6 @@ h3 {
   height: 654px;
   width: 445px;
   padding-top: 5px;
-}
-
-.img1 {
-  padding-left: 30px;
 }
 
 .img3 {
