@@ -2,40 +2,37 @@
     margin: 132px 20px 0 0;
     width: 1338px;
     height: 1px;
-    background: #C4C4C4; 
+    background: #C4C4C4;
+}
+.footer-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 38px 0;
+}
+  
+.footer-logo {
+    width: 106px;
 }
 .footer {
-    &__inner {
-        display: flex;
-        flex-wrap: wrap;
-        // grid-template-columns: repeat(4, 1fr);
-        // grid-gap: 30px;
-    }
-    &__inner-items ul {
-      
+    &__inner-list {
         list-style: none;
         display: flex;
-        flex-wrap: wrap;
         align-items: center;
-        padding-left: 595px;
-        padding-top: 38px;
     }
-    &__inner-list + &__inner-list  {
-        margin-left: 3px;
-    }
+
+    // &__inner-item + &__inner-item {
+    //     margin-left: 2px;
+    // }
+    
     &__inner-link {
         text-decoration: none;
         font-style: normal;
         font-size: 24px;
-        line-height: 36px;
         color: var(--accent-light);
     }
     &__inner-link::after {
         content: "\2022";
         padding: 0 5px 0 0;
     }
-    &__inner-logo {
-        width: 106px;
-        margin-top: 41px;
-    }
-}
+}  
