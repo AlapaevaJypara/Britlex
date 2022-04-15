@@ -6,6 +6,7 @@
   &__inner-txt {
     position: relative;
     max-width: 665px;
+    font-family: "Poppins";
     font-style: normal;
     font-weight: 400;
     font-size: 25px;
@@ -18,6 +19,7 @@
   }
   &__inner-title {
     font-size: 64px;
+    font-family: "Poppins";
     font-style: bold;
     font-weight: 600;
     line-height: 80px;
@@ -38,13 +40,16 @@
   }
 
   &__inner-btn {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
     width: 438px;
     height: 118px;
     border-radius: 10px;
     background-color: var(--accent);
     font-size: 36px;
     text-decoration: none;
-    padding: 40px 120px;
+    padding: 38px 109px;
     color: var(--pure-white);
     -webkit-transition-duration: 0.4s;
     transition-duration: 0.4s;

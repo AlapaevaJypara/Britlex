@@ -96,7 +96,7 @@ body {
 
 .menu {
   margin: 0;
-  padding: 0;
+  padding: 0 67px 0 0;
   list-style: none;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -128,7 +128,7 @@ body {
 }
 
 .header__button {
-  margin-left: 150px;
+  margin-left: 153px;
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
@@ -141,6 +141,8 @@ body {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   border-radius: 5px;
+  /* identical to box height */
+  color: #000000;
 }
 
 .main__inner {
@@ -151,6 +153,7 @@ body {
 .main__inner-txt {
   position: relative;
   max-width: 665px;
+  font-family: "Poppins";
   font-style: normal;
   font-weight: 400;
   font-size: 25px;
@@ -163,6 +166,7 @@ body {
 }
 .main__inner-title {
   font-size: 64px;
+  font-family: "Poppins";
   font-style: bold;
   font-weight: 600;
   line-height: 80px;
@@ -180,13 +184,16 @@ body {
   margin-top: -10px;
 }
 .main__inner-btn {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
   width: 438px;
   height: 118px;
   border-radius: 10px;
   background-color: var(--accent);
   font-size: 36px;
   text-decoration: none;
-  padding: 40px 120px;
+  padding: 38px 109px;
   color: var(--pure-white);
   -webkit-transition-duration: 0.4s;
   -o-transition-duration: 0.4s;
@@ -393,7 +400,7 @@ body {
 }
 
 .skills__inner {
-  padding: 0 10px 0 2px;
+  padding: 59px 0 0 25px;
 }
 .skills__wrapper {
   display: grid;

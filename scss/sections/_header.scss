@@ -27,7 +27,7 @@
 
 .menu {
   margin: 0;
-  padding: 0;
+  padding: 0 67px 0 0;
   list-style: none;
   display: flex;
   justify-content: center;
@@ -52,7 +52,7 @@
   display: none;
 }
 .header__button {
-  margin-left: 150px;
+  margin-left: 153px;
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
@@ -64,6 +64,21 @@
   border: 2px solid black;
   box-sizing: border-box;
   border-radius: 5px;
+
+  // position: absolute;
+  // width: 106px;
+  // height: 36px;
+  // left: 1306px;
+  // top: 72px;
+
+  // font-family: "Poppins";
+  // font-style: normal;
+  // font-weight: 400;
+  // font-size: 24px;
+  // line-height: 36px;
+  /* identical to box height */
+
+  color: #000000;
 }
 // .header__inner {
 //   display: flex;
